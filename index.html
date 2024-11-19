@@ -3,56 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style\basic-style.css">
+    <link rel="stylesheet" href="style\b-button\button.css">
+    <link rel="stylesheet" href="style\b-button\--focus\__button--focus.css">
+    <link rel="stylesheet" href="style\mobile.css">
+    <link rel="stylesheet" href="style\tablet.css">
+    <link rel="stylesheet" href="style\desktop.css">
     <title>Сайт CPS</title>
 </head>
 <body>
     <header class="header">
         <nav class="upper-menu">
             <ul class="menu">
-                <li class="ic-burger menu__icburger">
-                    <div class="burger-block">
-
+                <div class="b-burger-group">
+                    <li class="menu__ic-burger">
+                        <a href="#" class="url">
+                            <div class="burger-icon">
+                                <img src="Image\pictures\burger.png"> 
+                            </div>
+                        </a>
+                    </li>
+                    <div class="b-group-icon">
+                        <li class="menu__group">
+                            <div class="group-icon ">
+                                <img src="Image\pictures\Group.png" >     
+                            </div>
+                        </li>
                     </div>
-                </li>
-                <li class="group menu__group">
-                    <div class="group-block">
-                       
-                            
+                </div>
+                <div class="b-ccprc">
+                    <div class="b-call-prof">
+                        <li class="menu__ic-call">
+                            <a href="#" class="url">
+                                <div class="call-icon">
+                                    <img src="Image\pictures\call.png">  
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu__ic-chat">
+                            <a href="#" class="url">
+                                <div class="chat-icon">
+                                    <img src="Image\pictures\chat.png"> 
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu__ic-profile">
+                            <a href="#" class="url">
+                                <div class="profile-icon">
+                                    <img src="Image\pictures\profile.png"> 
+                                </div>
+                            </a>
+                        </li>
                     </div>
-                </li>
-                <li class="ic-repair menu__ic-repair">
-                    <div class="repair-block">
-                       
-                            
-                    </div>    
-                </li>
-                <li class="ic-checkstatus menu__ic-checkstatus">
-                    <div class="checkstatus-block">
-                       
-                            
+                    <div class="b-rep-check">
+                        <li class="menu__ic-repair">
+                            <a href="#" class="url">
+                                <div class="repair-icon">
+                                    <img src="Image\pictures\repair.png"> 
+                                </div> 
+                            </a>   
+                        </li>
+                        <li class="menu__ic-checkstatus">
+                            <a href="#" class="url">
+                                <div class="checkstatus-icon">
+                                    <img src="Image\pictures\checkstatus.png">   
+                                </div>
+                            </a>
+                        </li>
                     </div>
-                </li>
+                </div>
+                
             </ul>
         </nav>
     </header>
-    <main>
-        <h1 class="heading">Услуги и сервисы</h1>
-        <nav class="slide-menu">
-            <ul>
-                <li><button>Ремонтируемое устройство</button></li>
-                <li><button>Дополнительные услуги</button></li>
-                <li>апьтсисчмм с</li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
+    <div class="background-copy">
+        <main>
+            <div class="b-title">
+                <h1 class="b-title__heading">Услуги и сервисы</h1>
+                <div class="b-rep-check b-title__rep-check">
+                    <li class="menu__ic-repair">
+                        <a href="#" class="url">
+                            <div class="repair-icon">
+                                <img src="Image\pictures\repair.png"> 
+                            </div> 
+                        </a>   
+                    </li>
+                    <li class="menu__ic-checkstatus">
+                        <a href="#" class="url">
+                            <div class="checkstatus-icon">
+                                <img src="Image\pictures\checkstatus.png">   
+                            </div>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        
+            <nav class="slide-menu">
+                <div class="b-slide-menu">
+                    <button class="button">Ремонтируемые бренды</button>
+                    <button class="button">Ремонтируемые устройства</button>
+                    <button class="button">Дополнительные услуги</button>
+                    <button class="button">Цены на услуги</button>
+                    <button class="button">Специальные цены</button>
+                    <button class="button">Адреса сервисных центров</button>
+                    <button class="button">Отзывы</button>
+                </div>
+            </nav>
 
-        <section>
-            <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-             Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-            <img src="" >
-        </section>
-    </main>
+            <article class="b-article">
+                <div class="b-arrticle__b-parag b-parag">
+                    <div class="b-article__parag">
+                        <p>
+                            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                        </p>
+                        <p>
+                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                        </p>
+                    </div>
+                    <div class="b-article__read-more read-more">
+                        <div class="read-more__icon">
+                            <img class="read-more__img" src="Image\pictures\expand.png">
+                        </div>
+                        <div class="read-more__text">Читать далее</div>
+                    </div>
+                </div>
+                <img  class="b-article__image " src="Image\pictures\pic1.png" >
+            </article>
+        </main>
+    </div>
 </body>
 </html>

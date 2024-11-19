@@ -1,0 +1,146 @@
+@media screen and (min-width: 1120px) {
+
+    .b-slide-menu {
+        flex-wrap: wrap; /*переопределено*/
+    }
+
+    .background-copy {
+        max-width: auto;
+        min-width: 1120px;
+        min-height: 535px;
+        max-height: auto;
+        background: #F8F8F8;
+        margin: 0;
+        padding: 0;
+        padding-top: 1em;
+    }
+
+    .b-article__image { 
+        min-width: 532px;
+        max-width: 1fr;
+        height: 307px;
+        box-sizing: border-box;
+        align-self: center;
+        border: 2px solid #FFFFFF;
+        border-radius: 5px;
+    }
+
+
+    .b-title__heading {
+        display: flex;
+        margin: 0;
+        padding-left: 0px;
+        width: auto;
+    }
+
+    .b-title__heading::before {
+        margin-right: 15px;
+    }
+
+    .slide-menu {
+        margin-right: 10px;
+    }
+
+    .b-article {
+        display: flex;
+        margin: 15px;
+        width: auto;
+        justify-content: space-between;
+    }
+
+    .b-parag {
+        display: flex;
+        flex-direction:column;
+        justify-content: start;
+    }
+
+    .b-article__parag {
+        display: inline-block;
+        width: 1fr/*312px*/;
+        height: auto;
+        max-height: 160px; 
+        top: 240px;
+        left: 16px;
+        overflow: hidden;
+        margin-right: 40px;
+    }
+
+    .b-article__read-more {
+        width: 132px;
+        height: 24px;
+        margin-top: 10px;
+    }
+
+
+    .b-rep-check {
+        list-style-type: none;
+        display: flex;
+        width: auto;
+        height: 100%;
+        align-items: center;
+        justify-content:space-around;
+        margin-right: 20px;
+    }
+
+    .b-rep-check::before{
+        display: none; 
+    }
+
+    .b-ccprc {
+        margin-right: 15px;
+    }
+
+    .b-group-icon {
+        display: flex;
+        width: auto;
+        height: 100%;
+    }
+
+    .b-call-prof {
+        display: none;
+    }
+
+    .b-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0 20px 0;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .repair-icon {
+        display: flex;
+    }
+
+    .repair-icon::before {
+        content: "Оставить заявку";
+        width: auto;
+        height: auto;
+        align-content: center;
+        margin-right: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .checkstatus-icon{
+        display: flex;
+    }
+
+    .checkstatus-icon::before{
+        content: "Статус ремонта";
+        width: auto;
+        height: auto;
+        align-content: center;
+        margin-right: 10px;
+        color: black;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+
+    .url {
+        text-decoration: none;
+    }
+}
