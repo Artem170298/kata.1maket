@@ -99,8 +99,15 @@
 
     .b-group-icon {
         align-self: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     .b-group-icon::before {
         display:none;
+    }
+
+    .menu__ic-burger {
+        margin-left:-6px;
+        margin-right: 5px;
     }
 }

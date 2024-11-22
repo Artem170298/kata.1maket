@@ -1,11 +1,16 @@
 @media screen and (min-width: 1120px) {
 
+    body {
+        display: flex;
+        justify-content: center;
+    }
     .b-slide-menu {
         flex-wrap: wrap; /*переопределено*/
     }
 
     .background-copy {
-        max-width: auto;
+        max-width: 1440px;
+        width: auto;
         min-width: 1120px;
         min-height: 535px;
         max-height: auto;
@@ -17,7 +22,7 @@
 
     .b-article__image { 
         min-width: 532px;
-        max-width: 1fr;
+        width: 1fr;
         height: 307px;
         box-sizing: border-box;
         align-self: center;
