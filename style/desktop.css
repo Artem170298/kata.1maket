@@ -9,7 +9,7 @@
     }
 
     .background-copy {
-        max-width: 1440px;
+        max-width: 1120px;
         width: auto;
         min-width: 1120px;
         min-height: 535px;
@@ -147,5 +147,10 @@
 
     .url {
         text-decoration: none;
+    }
+
+    .button {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
